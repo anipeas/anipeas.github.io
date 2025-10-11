@@ -13,152 +13,36 @@ header:
 excerpt: ""
 ---
 
+### 2024
 
-<!-- 
-Collapsible sections
-<details>
-<summary>
-MENTAL HEALTH MONITORING (2023)
-</summary>
-<p markdown="1">
-<ul>
-  <li> This is a project done as part of [Prof. Bruce Walker's lab at Georgia Tech](http://sonify.psych.gatech.edu/~walkerb/). We are building an app that can help therapists better understand their patients' mental health by monitoring their daily activities and mood, through daily checkins. We are closely collaborating with [Hillside Atlanta](https://hside.org/) to identify the needs and build a solution that is useful to them. </li>
-  <li> My primary contributions for this app are from the ML side, analyzing descriptive and inferential insights from voice recordings and text data. </li> 
-</ul>
-</p>
-</details> -->
+**[[App] opensports.ai - Sports Insights through Natural Language](/work/opensports-ai/)**
 
-<!-- > ### MENTAL HEALTH MONITORING APP (2023)
+### 2023
 
-- <small> This is a project done as part of [Prof. Bruce Walker's lab at Georgia Tech](http://sonify.psych.gatech.edu/~walkerb/). We are building an app that can help therapists better understand their patients' mental health by monitoring their daily checkins, through daily checkins. We are closely collaborating with [Hillside Atlanta](https://hside.org/) to identify the needs and build a solution that is useful to them.  </small>
-- <small> My primary contributions for this app are from the ML side, analyzing descriptive and inferential insights from voice recordings and text data.</small> -->
+**[Interactive Twitter Bot Detection Through Network Graph Analysis](/work/twitter-bot-detection/)**
 
+**[Glucowise - A Diabetes Prediction Webapp](/work/glucowise/)**
 
-> ### INTERACTIVE TWITTER BOT DETECTION THROUGH NETWORK GRAPH ANALYSIS (2023)
+### 2022
 
-- <small> In this study, we have developed an interactive approach to identify and annotate Twitter bots, which integrates natural language processing (NLP) models, network graph analysis, and expert human judgment. We employ the [Twibot-20](https://github.com/BunsenFeng/TwiBot-20) and [Twibot-22](https://github.com/LuoUndergradXJTU/TwiBot-22) datasets to train a graph embedding model, subsequently executing hierarchical clustering on the resulting graph embeddings to discern clusters of accounts exhibiting similar behavior. Simultaneously, an NLP model generates bot likelihood scores for each account based on their tweet content. </small>
+**[[ACM Paper] EVA - Visual Data Management System](/work/eva-video-analytics/)**
 
-- <small> The following illustrates our interactive bot detection system at work. Initially, the system retrieves unlabeled clusters from an SQLite database. Users can choose a cluster, upon which the system presents the accounts within the chosen cluster and their respective characteristics via a t-SNE visualization. Users can then examine individual accounts to review profiles, additional information, and our pre-calculated NLP-based bot likelihood scores. This enables users to make well-informed decisions regarding the account's bot status, with the feedback subsequently enhancing the bot detection system's precision. </small>
+**[Using Bilinear CNNs for Vehicle Make and Model Prediction](/work/vehicle-prediction/)**
 
-[ ![](/assets/images/tbd.png) ](/assets/images/tbd.png)
+**[Emoji Category and Position Prediction in Text Passages](/work/emoji-prediction/)**
 
-- <small> Check out the [report](https://github.com/womackj1/twitter-bot-detection/blob/main/docs/report.pdf) for more information. Our end goal is to deploy this interactive bot detection system on a web app and show that our system is more accurate and faster than existing bot detection systems. </small>
+**[Jinglecraft - Machine Learning in Music](/work/jinglecraft/)**
 
+### 2021
 
-> ### GLUCOWISE - A DIABETES PREDICTION WEBAPP (2023)
+**[[Patent] Human-in-loop pipeline for Document Understanding](/work/loan-documents/)**
 
-- <small> In this work, we built a webapp that predicts the risk of diabetes in a person based on their health parameters. We also built interactive visualizations to help users understand the factors that contribute to diabetes. </small>
+**[Pneumonia Detection](/work/pneumonia-detection/)**
 
-[ ![](/assets/images/glucowise.png) ](/assets/images/glucowise.png)
+**[Experimentation with Video Queries on Driving Datasets](/work/driving-dataset-experimentation/)**
 
-- <small> Check out the [repo](https://github.com/Anirudh58/diabetes-prediction-webapp) for more details </small>
+**[[App] Cricboard - Cricket Statistics Webapp](/work/cricboard/)**
 
+### 2019
 
-> ### EXPLORATORY VIDEO ANALYTICS (2022)
-
-- <small> EVA is a visual data management system (think MySQL for videos). It supports a declarative language similar to SQL and a wide range of commonly used computer vision models. The key idea behind EVA is that simple to moderate analysis on videos should be as easy as writing SQL queries. </small>
-
-- <small> This is a sample query to run an emotion detector on all faces in a video and the corresponding output. Without EVA, such a task would require a lot of boilerplate code to extract the faces and run the emotion detector on each of them, assuming you have the models in the first place.
-
-```sql
-  SELECT id, bbox, EmotionDetector(Crop(data, bbox)) 
-  FROM MyVideo JOIN LATERAL UNNEST(FaceDetector(data)) AS Face(bbox, conf);
-```
-
-[ ![](/assets/images/gangubai-output.gif) ](/assets/images/gangubai-output.gif)
-
-- <small> This is a running project as part of the [Georgia Tech Database Research Group](https://db.cc.gatech.edu/). I worked with the team on this for 3 semesters as part of my Masters project, with contributions primarily from the ML side. See [project docs](https://evadb.readthedocs.io/en/stable/) to know more. </small>
-
-
-> ### USING BILINEAR CNNs FOR VEHICLE MAKE AND MODEL PREDICTION (2022)
-
-- <small> In this project, we have taken up a fine-grained classification of predicting a vehicle's make and model given an input image of a vehicle using various neural networks. We used [VMMRdb](https://github.com/faezetta/VMMRdb) as the main dataset source.</small>
-- <small> We compared the performance of 3 methods. Transfer learning with various backbone models (ResNet18, ResNet50, MobileNetv2), Bilinear CNNs and Vision Transformers. As the number of labels increased, we found that Bilinear CNNs outperformed the other networks in terms of accuracy, as it was able to learn the fine details better. This poster summarizes our findings. 
-
-<!-- [ ![](/assets/images/vp_test_images.png) ](/assets/images/vp_test_images.png) -->
-[ ![](/assets/images/vp_poster.jpg) ](/assets/images/vp_poster.jpg)
-
-- <small> This project was done as part of CS 7643 (Deep Learning). Please find the code [here](https://github.com/Anirudh58/vehicle-predictor) and the research report [here](https://github.com/Anirudh58/vehicle-predictor/blob/main/Vehicle_Predictor_Final_Report.pdf) </small>
-
-> ### EMOJI CATEGORY AND POSITION PREDICTION IN TEXT PASSAGES (2022)
-
-- <small> Curated a new dataset by scraping and cleaning emoji information along with character and word level index for about 350K tweets. </small>
-- <small> Implemented a Bi-LSTM network with pre-trained GloVe embeddings for predicting the type and position of an emoji given a text. Since multiple emojis often have similar meanings, we used emoji2vec to cluster emojis (as shown in the image below on the left) and used the clusters as target labels. We achieved 62% accuracy in emoji prediction and a 78% accuracy in position prediction. The table below on the right shows some sample predictions. </small>
-
-:----------------------------------:|:----------------------------------:
-[ ![](/assets/images/ep_cluster.png) ](/assets/images/ep_cluster.png) |  [ ![](/assets/images/ep_preds.jpg) ](/assets/images/ep_preds.jpg)
-
-
-- <small> This project was done as part of CS 7650 (Natural Language). Please find the repo [here](https://github.com/Anirudh58/emoji-prediction) and the research report [here](https://github.com/Anirudh58/emoji-prediction/blob/main/report.pdf) </small>
-
-
-> ### JINGLECRAFT - MACHINE LEARNING IN MUSIC (2022)
-
-- <small> This project is an in-depth analysis of various ML algorithms and Data visualizations for Genre Classification and Mood Prediction. </small>
-- <small> We used a combination of the Million Song Dataset, GTZAN and Spotify API as our dataset source. Our models and visualizations
-were based on both spectral features (mel-spectrogram, as shown below) as well as metadata features. </small>
-
-[ ![](/assets/images/jc_3.png) ](/assets/images/jc_3.png)
-
-- <small> We also used a combination of various ML algorithms to predict the mood associated with a song. Images below show some cool insights. </small>
-
-:----------------------------------:|:----------------------------------:
-[ ![](/assets/images/jc_1.png) ](/assets/images/jc_1.png) |  [ ![](/assets/images/jc_2.png) ](/assets/images/jc_2.png)
-
-
-- <small> This project was done as part of CS 7641 (Machine Learning). The complete report can be found [here](https://vaibhavb007.github.io/jinglecraft/) </small>
-
-> ### SPLITTING AND CLASSIFICATION OF LOAN DOCUMENTS (2021)
-
-- <small> Developed and patented a human-in-loop, event-driven pipeline for Document Understanding tasks on GCP, leading to significant savings and broad application across various verticals at Iron Mountain Insight. </small>
-
-- <small> Link to the patent [here](https://patents.google.com/patent/US20210085278A1/en). </small>
-
-
-> ### PNEUMONIA DETECTION (2021)
-
-- <small> I have always been fascinated by the applications of AI in health. I envision a future where, basic health services powered by AI, are provided free of cost. Especially, in the remote areas where it's not easy for people to consult doctors even for simple health problems. </small>
-- <small> Here, I used the [Kaggle CoronaHack -Chest X-Ray-Dataset](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset) to train a simple network to differentiate a healthy chest and a pneumonic chest. The image below show samples from the test dataset and predictions. </small>
-
-:----------------------------------:|:----------------------------------:
-[ ![](/assets/images/pd_1.png) ](/assets/images/pd_1.png) |  [ ![](/assets/images/pd_2.png) ](/assets/images/pd_2.png)
-
-- <small> See repo [here](https://github.com/Anirudh58/pneumonia-detection) for full code and other details. </small>
-
-
-> ### EXPERIMENTATION WITH VIDEO QUERIES ON DRIVING DATASETS (2021)
-
-- <small> Worked on a simple, configurable implementation to pre-train a network over FasterRCNN and similar models. </small>
-- <small> I used the [Berkeley Deep Drive](https://bdd-data.berkeley.edu/) dataset for this task targetting specific labels of choice like cars, signs, pedestrians etc. It is configurable to scale for more labels with minor tweaks. Below is a demo for a sample query. </small>
-
-```
-  Sample every 3 seconds and get all timestamps with more than 2 cars, 1 sign and 1 pedestrian.
-```
-
-[ ![](/assets/images/bdd_demo.gif) ](/assets/images/bdd_demo.gif)
-
-- <small> Found this dataset super interesting because of how comprehensive it is. Would definitely want to experiment more, especially on ideas related to autonomous driving in the future (lane segmentation, steering prediction, etc.). Find the [code](https://github.com/Anirudh58/berkeley_deepdrive_experimentation) here. </small>
-
-
-> ### CRICBOARD (2021)
-
-- <small> Cricboard is a cricket statistics page, aimed to provide cool insights to users in a dynamic, interactive UI. One of the main motivations to build something like this is the potential usage in fantasy league contests. Head over to the FAQ section at [cricboard](http://cricboard.in) to know more! </small>
-- <small> Below is a small demo of the webapp in action. </small>
-
-[ ![](/assets/images/cricboard_demo.gif) ](/assets/images/cricboard_demo.gif)
-
-- <small> We received over 30k page hits on the opening day of IPL 2021, and consistently had a daily average of 1k-2k page hits until covid decided to end the tournament. </small>
-- <small> We have made the code for this website public now. Do check it out [here](https://github.com/Anirudh58/cricboard). If you have ideas for better features, visualization ideas etc. please do feel free to issue PRs. We plan to resume work on this very soon! </small>
-
-
-<!-- > ### SUBWAY-SURFER (2020)
-
-- <small> This was a fun, little project I worked on during the 2020 lockdown, aimed to keep people fit at home. Idea is to use standard Computer Vision techniques to capture body motions and use that as inputs to any game. I chose subway surfer due to it's simplicity and popularity. I was surprised how little code is required to build such interesting applications these days. </small>
-- <small> Hope to find inspiration/time to work on some major improvements (scaling to any user environment, reducing latency, maybe even building a simple mobile app?). You can check out the project [here](https://github.com/Anirudh58/subway_surfer) and maybe even issue PRs or send suggestions. </small>  -->
-
-
-> ### ANOMALOUS CONTENT FROM SURVEILLANCE VIDEOS (2019)
-
-- <small> One of the main driving goals behind this project is the high number of false positivies typically associated with naive monitoring systems. For eg. Surveillance cameras in smarthomes send alerts to the user every time it detects motion. We wanted to see if it's possible to reduce such high false alerts. </small>
-- <small> We used Facebook's [C3D](https://research.fb.com/blog/2014/12/c3d-generic-features-for-video-analysis/) to extract spatiotemporal features from videos taken from the [UCF-Crimes dataset](https://webpages.uncc.edu/cchen62/dataset.html) and fed them to a multi-input CNN. Modeling it as a multi-classification problem didn't give great results due to very limited training set, however, the model was able to sufficiently correlate highly anomalous segments of a video with high regression scores. </small> 
-- <small> This [publication](https://ieeexplore.ieee.org/document/9092161) was accepted and presented at ICinPro-2019. This being my first research project, helped me learn a lot of interesting things. I also realized the immense complexity/scope in the domain of video understanding and instilled in me a desire to learn more. </small> 
+**[[IEEE Paper] Anomalous Content from Surveillance Videos](/work/anomalous-content-detection/)** 
