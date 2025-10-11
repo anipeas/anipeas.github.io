@@ -26,4 +26,4 @@ excerpt: ""
 
 [ ![](/assets/images/gangubai-output.gif) ](/assets/images/gangubai-output.gif)
 
-- <small> This project was developed as part of the [Georgia Tech Database Research Group](https://db.cc.gatech.edu/) over three semesters during my Master's program, with primary contributions in machine learning implementation. Comprehensive documentation is available in the [project documentation](https://evadb.readthedocs.io/en/stable/). </small>
+- <small> This project was developed as part of the [Georgia Tech Database Research Group](https://db.cc.gatech.edu/) over three semesters during my Master's program, with primary contributions in machine learning implementation. Comprehensive documentation is available in the [project documentation](https://evadb.readthedocs.io/en/stable/). Here is the [research paper](https://dl.acm.org/doi/10.1145/3595360.3595858) </small>
