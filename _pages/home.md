@@ -14,9 +14,9 @@ excerpt: ""
 
 ### About
 
-- I'm currently a **Software Engineer** at [Meta](https://www.meta.com/){:target="_blank"}, on the Health and Wellbeing Experiences team within [Reality Labs](https://tech.facebook.com/reality-labs/){:target="_blank"} Wearables. I work full stack (Android, iOS, and backend) building new health and wellbeing experiences across mobile and wearables.
+- I'm currently a **Software Engineer** at [Meta](https://www.meta.com/){:target="_blank"}, on the Health and Wellbeing Experiences team within [Reality Labs](https://tech.facebook.com/reality-labs/){:target="_blank"}. I build full-stack health features across mobile and our wearables ecosystem.
 
-- Previously at [Instagram](https://www.instagram.com/){:target="_blank"}, I was on the Story Ads Experiences team within Instagram Business. I worked on backend development (Hack and Python) for new ad and creative features, running experiments, building data pipelines, and launching A/B tests. I also contributed to infrastructure and reliability improvements for Instagram's backend systems.
+- Previously at [Instagram](https://www.instagram.com/){:target="_blank"}, I was on the Story Ads Experiences team within Instagram Business. I worked on backend development for new ad and creative features, designing and running experiments to inform feature launches, building data pipelines, and contributing to infrastructure and reliability improvements across Instagram’s backend systems.
 
 ### Education
 - **M.S. in Computer Science** (2023) — [Georgia Tech](https://www.gatech.edu){:target="_blank"}  
