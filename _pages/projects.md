@@ -13,6 +13,10 @@ header:
 excerpt: ""
 ---
 
+### 2025
+
+**[[App] Climate Check - Historical Weather Pattern Analysis](/work/climate-check/)**
+
 ### 2024
 
 **[[App] opensports.ai - Sports Insights through Natural Language](/work/opensports-ai/)**

@@ -45,7 +45,7 @@ excerpt: ""
 
 [ ![](/assets/images/os_demo_3.png) ](/assets/images/os_demo_3.png)
 
-- <small> Check out the app [here](https://opensports.ai). (currently down) </small>
+- <small> Check out the app [here](https://opensports.ai) (currently down) and repos ([backend](https://github.com/anipeas/osb), [frontend](https://github.com/anipeas/osf)) </small>
 
 
 
