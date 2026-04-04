@@ -13,6 +13,10 @@ header:
 excerpt: ""
 ---
 
+### 2026
+
+**[[App] Arangm - Workout Tracker](/work/arangm/)**
+
 ### 2025
 
 **[[App] Climate Check - Historical Weather Pattern Analysis](/work/climate-check/)**
