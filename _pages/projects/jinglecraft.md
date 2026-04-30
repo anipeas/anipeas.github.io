@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Jinglecraft - Machine Learning in Music"
-permalink: /work/jinglecraft/
+permalink: /projects/jinglecraft/
+redirect_from:
+  - /work/jinglecraft/
+  - /work/jinglecraft
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

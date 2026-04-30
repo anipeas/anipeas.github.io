@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Interactive Twitter Bot Detection Through Network Graph Analysis"
-permalink: /work/twitter-bot-detection/
+permalink: /projects/twitter-bot-detection/
+redirect_from:
+  - /work/twitter-bot-detection/
+  - /work/twitter-bot-detection
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Arangm"
-permalink: /work/arangm/
+permalink: /projects/arangm/
+redirect_from:
+  - /work/arangm/
+  - /work/arangm
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

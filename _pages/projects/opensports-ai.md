@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "opensports.ai"
-permalink: /work/opensports-ai/
+permalink: /projects/opensports-ai/
+redirect_from:
+  - /work/opensports-ai/
+  - /work/opensports-ai
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

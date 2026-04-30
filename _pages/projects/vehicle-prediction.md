@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Using Bilinear CNNs for Vehicle Make and Model Prediction"
-permalink: /work/vehicle-prediction/
+permalink: /projects/vehicle-prediction/
+redirect_from:
+  - /work/vehicle-prediction/
+  - /work/vehicle-prediction
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

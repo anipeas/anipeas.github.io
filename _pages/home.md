@@ -14,11 +14,11 @@ excerpt: ""
 
 ### About
 
-- I'm currently a **Software Engineer** at [Meta](https://www.meta.com/){:target="_blank"}, on the Health Experiences team within [Reality Labs](https://tech.facebook.com/reality-labs/){:target="_blank"}. I build AI-driven health and accessibility features for consumer wearables.
+- I'm a **Software Engineer** at [Meta](https://www.meta.com/){:target="_blank"} on the Health Experiences team within [Reality Labs](https://tech.facebook.com/reality-labs/){:target="_blank"} — building **AI-driven health and wellbeing features** for consumer wearables.
 
-- Previously at [Instagram](https://www.instagram.com/){:target="_blank"} Business Experiences, I worked on backend development for new ad and creative features — designing and running experiments, building data pipelines, and contributing to infrastructure and reliability improvements across Instagram's backend systems.
+- I'm most excited about working at the intersection of **AI and health** — shipping consumer software that helps people understand their bodies and live better, at scale.
 
-- Before Meta, I worked across healthcare AI, applied ML, database systems, and IoT — spanning industry roles and research at Georgia Tech. Here is my [resume](/resume).
+- Previously: [Athelas](https://www.athelas.com/){:target="_blank"} (healthcare AI / RCM), [Instagram](https://www.instagram.com/){:target="_blank"} Business Experiences (consumer-scale backend), Iron Mountain (applied ML), and Samsung Research (IoT and smart home).
 
 ### Education
 - **M.S. in Computer Science** (2023) — [Georgia Tech](https://www.gatech.edu){:target="_blank"}  

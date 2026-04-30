@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Emoji Category and Position Prediction in Text Passages"
-permalink: /work/emoji-prediction/
+permalink: /projects/emoji-prediction/
+redirect_from:
+  - /work/emoji-prediction/
+  - /work/emoji-prediction
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

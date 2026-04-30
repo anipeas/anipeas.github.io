@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Climate Check"
-permalink: /work/climate-check/
+permalink: /projects/climate-check/
+redirect_from:
+  - /work/climate-check/
+  - /work/climate-check
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

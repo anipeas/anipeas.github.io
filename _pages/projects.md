@@ -3,8 +3,11 @@ layout: single
 read_time: false
 comments: false
 share: false
-title: "<br><br><br> Work"
-permalink: /work/
+title: "<br><br><br> Projects"
+permalink: /projects/
+redirect_from:
+  - /work/
+  - /work
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -15,42 +18,37 @@ excerpt: ""
 
 ### 2026
 
-**[[App] Arangm - Workout Tracker](/work/arangm/)**
+**[[App] Arangm - Workout Tracker](/projects/arangm/)**
 
 ### 2025
 
-**[[App] Climate Check - Historical Weather Pattern Analysis](/work/climate-check/)**
+**[[App] Climate Check - Historical Weather Pattern Analysis](/projects/climate-check/)**
 
 ### 2024
 
-**[[App] opensports.ai - Sports Insights through Natural Language](/work/opensports-ai/)**
+**[[App] opensports.ai - Sports Insights through Natural Language](/projects/opensports-ai/)**
 
 ### 2023
 
-**[Interactive Twitter Bot Detection Through Network Graph Analysis](/work/twitter-bot-detection/)**
+**[Interactive Twitter Bot Detection Through Network Graph Analysis](/projects/twitter-bot-detection/)**
 
-**[Glucowise - A Diabetes Prediction Webapp](/work/glucowise/)**
+**[Glucowise - A Diabetes Prediction Webapp](/projects/glucowise/)**
 
 ### 2022
 
-**[[ACM Paper] EVA - Visual Data Management System](/work/eva-video-analytics/)**
+**[Using Bilinear CNNs for Vehicle Make and Model Prediction](/projects/vehicle-prediction/)**
 
-**[Using Bilinear CNNs for Vehicle Make and Model Prediction](/work/vehicle-prediction/)**
+**[Emoji Category and Position Prediction in Text Passages](/projects/emoji-prediction/)**
 
-**[Emoji Category and Position Prediction in Text Passages](/work/emoji-prediction/)**
-
-**[Jinglecraft - Machine Learning in Music](/work/jinglecraft/)**
+**[Jinglecraft - Machine Learning in Music](/projects/jinglecraft/)**
 
 ### 2021
 
-**[[Patent] Human-in-loop pipeline for Document Understanding](/work/loan-documents/)**
+**[Pneumonia Detection](/projects/pneumonia-detection/)**
 
-**[Pneumonia Detection](/work/pneumonia-detection/)**
+**[Experimentation with Video Queries on Driving Datasets](/projects/driving-dataset-experimentation/)**
 
-**[Experimentation with Video Queries on Driving Datasets](/work/driving-dataset-experimentation/)**
+**[[App] Cricboard - Cricket Statistics Webapp](/projects/cricboard/)**
 
-**[[App] Cricboard - Cricket Statistics Webapp](/work/cricboard/)**
+For my patents and publications, see [research](/research).
 
-### 2019
-
-**[[IEEE Paper] Anomalous Content from Surveillance Videos](/work/anomalous-content-detection/)** 

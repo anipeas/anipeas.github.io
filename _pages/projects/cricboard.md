@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Cricboard"
-permalink: /work/cricboard/
+permalink: /projects/cricboard/
+redirect_from:
+  - /work/cricboard/
+  - /work/cricboard
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Experimentation with Video Queries on Driving Datasets"
-permalink: /work/driving-dataset-experimentation/
+permalink: /projects/driving-dataset-experimentation/
+redirect_from:
+  - /work/driving-dataset-experimentation/
+  - /work/driving-dataset-experimentation
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

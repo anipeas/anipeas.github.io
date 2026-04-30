@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Glucowise - A Diabetes Prediction Webapp"
-permalink: /work/glucowise/
+permalink: /projects/glucowise/
+redirect_from:
+  - /work/glucowise/
+  - /work/glucowise
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

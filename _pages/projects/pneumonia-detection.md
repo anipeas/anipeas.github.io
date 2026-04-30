@@ -4,7 +4,10 @@ read_time: false
 comments: false
 share: false
 title: "Pneumonia Detection"
-permalink: /work/pneumonia-detection/
+permalink: /projects/pneumonia-detection/
+redirect_from:
+  - /work/pneumonia-detection/
+  - /work/pneumonia-detection
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

@@ -2,9 +2,7 @@
 main:
 - title: "Resume"
   url: /resume/
-- title: "Work"
-  url: /work/
-# - title: "Research"
-#   url: /research/
-# - title: "Blog"
-#   url: /blog/
+- title: "Research"
+  url: /research/
+- title: "Projects"
+  url: /projects/

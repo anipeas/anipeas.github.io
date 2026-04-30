@@ -13,26 +13,34 @@ header:
 excerpt: ""
 ---
 
-> ### EXPLORATORY VIDEO ANALYTICS (2022)
+## PATENTS
 
-- <small> EVA is a visual data management system (think MySQL for videos). It supports a declarative language similar to SQL and a wide range of commonly used computer vision models. The key idea behind EVA is that simple to moderate analysis on videos should be as easy as writing SQL queries. </small>
-- <small> See [here](https://evadb.readthedocs.io/en/stable/) to know more. </small>
+#### Human-in-loop pipeline for Document Understanding &nbsp; [[patent]](https://patents.google.com/patent/US20210085278A1/en)
+<small>US20210085278A1 · Iron Mountain · 2021</small>
 
-> ### USING BILINEAR CNNs FOR VEHICLE MAKE AND MODEL PREDICTION (2022)
+- <small> Architected a human-in-the-loop, event-driven pipeline for Document Understanding tasks deployed on Google Cloud Platform. The system delivered significant cost savings and demonstrated broad applicability across multiple industry verticals at Iron Mountain Insight. </small>
 
-- <small> In this project, we have taken up a fine-grained classification of predicting a vehicle's make and model given an input image of a vehicle using various neural networks. We used [VMMRdb](https://github.com/faezetta/VMMRdb) as the main dataset source.</small>
-- <small> We compared the performance of 3 methods. Transfer learning with various backbone models (ResNet18, ResNet50, MobileNetv2), Bilinear CNNs and Vision Transformers. As the number of labels increased, we found that Bilinear CNNs outperformed the other networks in terms of accuracy, as it was able to learn the fine details better. </small>
-- <small> This project was done as part of CS 7643 (Deep Learning). Please find the code [here](https://github.com/Anirudh58/vehicle-predictor) and the research report [here](https://github.com/Anirudh58/vehicle-predictor/blob/main/Vehicle_Predictor_Final_Report.pdf) </small>
+---
 
-> ### EMOJI CATEGORY AND POSITION PREDICTION IN TEXT PASSAGES (2022)
+## PUBLICATIONS
 
-- <small> Curated a new dataset by scraping and cleaning emoji information along with character and word level index for about 350K tweets. </small>
-- <small> Implemented a Bi-LSTM network with pre-trained GloVe embeddings for predicting the type and position of an emoji given a text.
-Achieved 62% accuracy in emoji prediction (modeled as a top-10 clustering problem) and a 78% accuracy in position prediction. </small>
-- <small> This project was done as part of CS 7650 (Natural Language). Please find the repo [here](https://github.com/Anirudh58/emoji-prediction) and the research report [here](https://github.com/Anirudh58/emoji-prediction/blob/main/report.pdf) </small>
+#### EVA: A Visual Data Management System &nbsp; [[paper]](https://dl.acm.org/doi/10.1145/3595360.3595858) &nbsp; [[project site]](https://evadb.readthedocs.io/en/stable/)
+<small>ACM SIGMOD/DEEM 2023 · Georgia Tech Database Group</small>
 
-> ### ANOMALOUS CONTENT FROM SURVEILLANCE VIDEOS (2019)
+- <small> EVA is a visual data management system (think MySQL for videos). It supports a declarative SQL-like language and a wide range of commonly used computer vision models. The key idea behind EVA is that simple to moderate analysis on videos should be as easy as writing SQL queries. </small>
+- <small> Contributed SQL-like query support for videos and images, with relational-database–inspired optimizations such as function caching, sampling, and cost-based operator reordering to accelerate deep learning pipelines. </small>
 
-- <small> One of the main driving goals behind this project is the high number of false positivies typically associated with naive monitoring systems. For eg. Surveillance cameras in smarthomes send alerts to the user every time it detects motion. We wanted to see if it's possible to reduce such high false alerts. </small>
-- <small> We used Facebook's [C3D](https://research.fb.com/blog/2014/12/c3d-generic-features-for-video-analysis/) to extract spatiotemporal features from videos taken from the [UCF-Crimes dataset](https://webpages.uncc.edu/cchen62/dataset.html) and fed them to a multi-input CNN. Modeling it as a multi-classification problem didn't give great results due to very limited training set, however, the model was able to sufficiently correlate highly anomalous segments of a video with high regression scores. </small> 
-- <small> This [publication](https://ieeexplore.ieee.org/document/9092161) was accepted and presented at ICinPro-2019. This being my first research project, helped me learn a lot of interesting things. I also realized the immense complexity/scope in the domain of video understanding and instilled in me a desire to learn more. </small> 
+#### Anomalous Content from Surveillance Videos &nbsp; [[paper]](https://ieeexplore.ieee.org/document/9092161)
+<small>IEEE ICinPro 2019 · Samsung Research India</small>
+
+- <small> Tackled the high false-positive rates in conventional surveillance monitoring systems — the kind that fire alerts every time a smart-home camera detects motion. The goal was a system that could distinguish routine activity from genuinely anomalous events. </small>
+- <small> Used Facebook's [C3D](https://research.fb.com/blog/2014/12/c3d-generic-features-for-video-analysis/) to extract spatiotemporal features from surveillance videos in the [UCF-Crimes dataset](https://webpages.uncc.edu/cchen62/dataset.html), then trained a multi-input CNN. The regression-based formulation reliably correlated highly anomalous video segments with high regression scores. </small>
+
+---
+
+## REVIEWING
+
+- <small> **[IEEE ICEdge 2026](https://icedge.org/)** — Technical Program Committee · IEEE Symposium on Intelligent Edge Computing, IISc Bengaluru, December 2026. </small>
+- <small> **[PervasiveHealth 2026](https://pervasivehealth.eai-conferences.org/2026/)** — Reviewer · 20th EAI International Conference on Pervasive Computing Technologies for Healthcare, Beijing, October 2026. </small>
+- <small> **[IEEE AIIoT 2026](https://worldaiiotcongress.org/)** — Reviewer · 7th IEEE World AI IoT Congress, Seattle, May 2026. </small>
+- <small> **[HMSS 2026](https://hmss-conference.org/)** — Program Committee · International Conference on Health Medical Systems and Services. </small>
