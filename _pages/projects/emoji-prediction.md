@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Emoji Category and Position Prediction in Text Passages"
-permalink: /projects/emoji-prediction/
+permalink: /_projects/emoji-prediction/
 redirect_from:
   - /work/emoji-prediction/
   - /work/emoji-prediction

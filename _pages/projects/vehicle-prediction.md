@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Using Bilinear CNNs for Vehicle Make and Model Prediction"
-permalink: /projects/vehicle-prediction/
+permalink: /_projects/vehicle-prediction/
 redirect_from:
   - /work/vehicle-prediction/
   - /work/vehicle-prediction

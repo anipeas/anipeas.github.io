@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Experimentation with Video Queries on Driving Datasets"
-permalink: /projects/driving-dataset-experimentation/
+permalink: /_projects/driving-dataset-experimentation/
 redirect_from:
   - /work/driving-dataset-experimentation/
   - /work/driving-dataset-experimentation

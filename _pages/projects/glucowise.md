@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Glucowise - A Diabetes Prediction Webapp"
-permalink: /projects/glucowise/
+permalink: /_projects/glucowise/
 redirect_from:
   - /work/glucowise/
   - /work/glucowise

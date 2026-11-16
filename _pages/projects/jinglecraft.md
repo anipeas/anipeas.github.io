@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Jinglecraft - Machine Learning in Music"
-permalink: /projects/jinglecraft/
+permalink: /_projects/jinglecraft/
 redirect_from:
   - /work/jinglecraft/
   - /work/jinglecraft

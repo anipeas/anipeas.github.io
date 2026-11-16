@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "opensports.ai"
-permalink: /projects/opensports-ai/
+permalink: /_projects/opensports-ai/
 redirect_from:
   - /work/opensports-ai/
   - /work/opensports-ai

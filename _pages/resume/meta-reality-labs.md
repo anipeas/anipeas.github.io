@@ -18,17 +18,18 @@ excerpt: ""
 
 - <small> Building consumer health and accessibility features for Meta's wearable ecosystem on the **Health Experiences** team within Reality Labs. Working end-to-end across on-device pipelines, production runtime, and user-facing experiences. </small>
 
-#### Conversation Focus
+#### Health Experiences
 
-- <small> AI-powered hearing-assistance feature on Ray-Ban Meta and Oakley Meta HSTN smart glasses. Combines beamforming, real-time spatial audio processing, and AI-based noise suppression to selectively amplify the voice of the person the wearer is facing, a take on the classic cocktail-party problem. [Announced at Meta Connect 2025](https://about.fb.com/news/2025/12/updates-to-meta-ai-glasses-conversation-focus-spotify-integration/) and [launched](https://techcrunch.com/2025/12/16/metas-ai-glasses-can-now-help-you-hear-conversations-better/) in the US and Canada in late 2025. </small>
-- <small> Contributed to the user-facing experience and controls, integration with the underlying audio pipeline, and logging instrumentation.  </small>
+- <small> Working on a portfolio of next-generation health and accessibility features for Meta's consumer wearables. The work spans translating peer-reviewed physiological models into production software, collaborating closely with health researchers, and owning the systems that deliver these experiences on-device at consumer scale. </small>
+- <small> *Specific details can't be shared right now since the devices are not yet publicly available.* </small>
+
+#### Conversation Focus & Hearing Enhancement
+
+- <small> **Conversation Focus:** AI-powered hearing-assistance feature on Ray-Ban Meta and Oakley Meta HSTN smart glasses. Combines beamforming, real-time spatial audio processing, and AI-based noise suppression to selectively amplify the voice of the person the wearer is facing, a take on the classic cocktail-party problem. [Announced at Meta Connect 2025](https://about.fb.com/news/2025/12/updates-to-meta-ai-glasses-conversation-focus-spotify-integration/) and [launched](https://techcrunch.com/2025/12/16/metas-ai-glasses-can-now-help-you-hear-conversations-better/) in the US and Canada in late 2025. </small>
+- <small> **Hearing Enhancement:** FDA-cleared software feature for supported AI glasses that helps adults with perceived mild to moderate hearing loss hear better, set up at home in minutes with no clinic or prescription needed. [Announced at Meta Connect 2026](https://www.meta.com/blog/meta-connect-2026-everything-we-announced/) for a US launch in late 2026. </small>
+- <small> Contributed across both features through their shared components: the user-facing experience and controls, integration with the underlying audio pipeline, and logging instrumentation. </small>
 
 #### Be My Eyes Integration
 
 - <small> First hands-free, voice-activated call-a-volunteer experience for blind and low-vision users on a consumer AI-wearable platform. [Launched](https://www.bemyeyes.com/news/be-my-eyes-is-rolling-out-on-ray-ban-meta-glasses-starting-today/) on Ray-Ban Meta glasses across the US, Canada, UK, Ireland, and Australia, connecting wearers to ~10 million sighted volunteers worldwide. </small>
 - <small> Contributed to the platform-level integration on the Meta side: voice invocation path, camera and call-session handoff, and cross-functional engineering with the Be My Eyes team. </small>
-
-#### Upcoming Health & Accessibility Features
-
-- <small> Working on a portfolio of next-generation health and accessibility features for Meta's consumer wearables. The work spans translating peer-reviewed physiological models into production software, collaborating closely with health researchers, and owning the systems that deliver these experiences on-device at consumer scale. </small>
-- <small> *Specific details can't be shared right now since the devices are not yet publicly available.* </small>

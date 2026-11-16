@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Pneumonia Detection"
-permalink: /projects/pneumonia-detection/
+permalink: /_projects/pneumonia-detection/
 redirect_from:
   - /work/pneumonia-detection/
   - /work/pneumonia-detection

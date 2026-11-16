@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Cricboard"
-permalink: /projects/cricboard/
+permalink: /_projects/cricboard/
 redirect_from:
   - /work/cricboard/
   - /work/cricboard

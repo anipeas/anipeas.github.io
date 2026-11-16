@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Climate Check"
-permalink: /projects/climate-check/
+permalink: /_projects/climate-check/
 redirect_from:
   - /work/climate-check/
   - /work/climate-check

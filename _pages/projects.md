@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "<br><br><br> Projects"
-permalink: /projects/
+permalink: /_projects/
 redirect_from:
   - /work/
   - /work
@@ -18,37 +18,37 @@ excerpt: ""
 
 ### 2026
 
-**[[App] Arangm - Workout Tracker](/projects/arangm/)**
+**[[App] Arangm - Workout Tracker](/_projects/arangm/)**
 
 ### 2025
 
-**[[App] Climate Check - Historical Weather Pattern Analysis](/projects/climate-check/)**
+**[[App] Climate Check - Historical Weather Pattern Analysis](/_projects/climate-check/)**
 
 ### 2024
 
-**[[App] opensports.ai - Sports Insights through Natural Language](/projects/opensports-ai/)**
+**[[App] opensports.ai - Sports Insights through Natural Language](/_projects/opensports-ai/)**
 
 ### 2023
 
-**[Interactive Twitter Bot Detection Through Network Graph Analysis](/projects/twitter-bot-detection/)**
+**[Interactive Twitter Bot Detection Through Network Graph Analysis](/_projects/twitter-bot-detection/)**
 
-**[Glucowise - A Diabetes Prediction Webapp](/projects/glucowise/)**
+**[Glucowise - A Diabetes Prediction Webapp](/_projects/glucowise/)**
 
 ### 2022
 
-**[Using Bilinear CNNs for Vehicle Make and Model Prediction](/projects/vehicle-prediction/)**
+**[Using Bilinear CNNs for Vehicle Make and Model Prediction](/_projects/vehicle-prediction/)**
 
-**[Emoji Category and Position Prediction in Text Passages](/projects/emoji-prediction/)**
+**[Emoji Category and Position Prediction in Text Passages](/_projects/emoji-prediction/)**
 
-**[Jinglecraft - Machine Learning in Music](/projects/jinglecraft/)**
+**[Jinglecraft - Machine Learning in Music](/_projects/jinglecraft/)**
 
 ### 2021
 
-**[Pneumonia Detection](/projects/pneumonia-detection/)**
+**[Pneumonia Detection](/_projects/pneumonia-detection/)**
 
-**[Experimentation with Video Queries on Driving Datasets](/projects/driving-dataset-experimentation/)**
+**[Experimentation with Video Queries on Driving Datasets](/_projects/driving-dataset-experimentation/)**
 
-**[[App] Cricboard - Cricket Statistics Webapp](/projects/cricboard/)**
+**[[App] Cricboard - Cricket Statistics Webapp](/_projects/cricboard/)**
 
-For my patents and publications, see [research](/research).
+For my patents and publications, see [research](/_research/).
 

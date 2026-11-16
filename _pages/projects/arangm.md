@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: "Arangm"
-permalink: /projects/arangm/
+permalink: /_projects/arangm/
 redirect_from:
   - /work/arangm/
   - /work/arangm

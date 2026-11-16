@@ -4,7 +4,7 @@ read_time: false
 comments: false
 share: false
 title: Research
-permalink: /research/
+permalink: /_research/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
